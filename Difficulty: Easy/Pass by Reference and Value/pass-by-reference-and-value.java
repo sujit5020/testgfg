@@ -35,13 +35,5 @@ class Solution {
         return new int[]{a, b}; // Returning updated values
     }
 
-    public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
-
-        int[] result = passedBy(a, b);
-
-        System.out.println("After pass_by_value (a): " + result[0]); // a + 1
-        System.out.println("After pass_by_value (b): " + result[1]); // b + 2
-    }
+    
 }
